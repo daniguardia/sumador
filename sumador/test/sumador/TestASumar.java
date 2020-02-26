@@ -26,5 +26,15 @@ class TestASumar {
     	String resultado = sumi.mostrar("-5");
     	assertNull(resultado);
     }
+    
+	/**
+	 * Prueba que envia una cadena varios digito
+	 */
+    @Test
+    public void testVariasCifra() {
+        ASumar sumi = new ASumar();
+        String resultado = sumi.mostrar("3433");
+        assertEquals("3433 = 13",resultado );
+    }
 
 }
