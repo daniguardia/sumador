@@ -2,9 +2,7 @@ package sumador;
 
 public class ASumar {
 	
-	public static void main(String [] args) {
-		
-	}
+
 	
 	/** 
 	 * Metodo que recibe un String numerico y devuelve la suma de los caracteres
